@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Abhishek Form</title>
+  </head>
+  <body>
+    <form action="https://www.google.com/" method="post">
+      First Name :<br>
+      <input type="text" name="firstname" value="firstname" size="40"><br><br>
+      Last Name :<br>
+      <input type="text" name="lastname" value="lastname" size="40"><br><br>
+      Birthday :<br>
+      <input type="date" name="bdate"><br><br>
+      Birthday-time :<br>
+      <input type="datetime-local" name="bdatetime"><br><br>
+      Birthday-Month :<br>
+      <input type="month" name="bdaymonth"><br><br>
+      E-mail :<br>
+      <input type="email" name="email" size="40"><br><br>
+      password :<br>
+      <input type="password" name="pas" value="password" size="40"><br><br>
+      Quantity (Between 10 To 50) :
+      <input type="number" name="quantity" min="10" max="50" step="5" value="5" size="40"><br><br>
+      Point :<br>
+      <input type="range" name="point" min="0" max="10" value="2" size="40"><br><br>
+      Google Serch :<br>
+      <input type="search" name="googleserch" size="40"><br><br>
+      Telephone :<br>
+      <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" size="40" required><br><br>
+      Select Time:<br>
+      <input type="time" name="user_time" size="40"><br><br>
+      Add Homepage:<br>
+      <input type="url" name="homepage" value="www.xyz.com" size="40"><br><br>
+      Select Week :<br>
+      <input type="week" name="week_year"><br><br>
+      drop-down list :<br>
+      <select name="name">
+        <option value="\abhi">Abhi</option>
+        <option value="\abhishek">Abhishek</option>
+        <option value="\sagar" selected>Sagar</option>
+        <option value="\maulik">Maulik</option>
+      </select><br><br>
+
+
+      <!-- datalist ma olo aero avto nathi jyare apde run kri tyare 2 var mathi 1 var kadhi nakhi etle ny ave -->
+      <!-- datalist :<br>
+        <input list="browsers" name="browser">
+        <datalist id="browser">
+          <option value="Internet Explorer">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist><br><br>
+
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+          <option value="Internet Explorer">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist> -->
+
+
+      Text-area :
+      <textarea name="message" rows="8" cols="10">Enter a valu</textarea><br><br>
+      <input type="radio" name="male" value="male"> Male <br>
+      <input type="radio" name="female" value="female"> Female <br>
+      <input type="radio" name="Other" value="Other"> Other <br><br>
+      <input type="checkbox" name="newuser" value="newuser">New User <br>
+      <input type="checkbox" name="Olduser" value="Olduser">Old User <br><br>
+      <input type="color" name="favcolor" value="#490c0c"> color<br><br>
+      Select a File :<br>
+      <input type="file" name="myfile"><br><br>
+
+      <input type="button" onclick="alert('Hello')" value="Click Me">
+      <input type="submit" name="submit" value="submit">
+      <input type="reset" name="reset" value="reset"  >
+    </form>
+
+  </body>
+</html>
